@@ -1,3 +1,14 @@
 [gd_scene format=3 uid="uid://cklllfk0xvrfb"]
 
 [node name="Wolf Scene 01" type="Node2D"]
+
+[node name="Visual" type="Node2D" parent="."]
+
+[node name="PointSprite" type="Sprite2D" parent="Visual"]
+
+[node name="Rig" type="Node2D" parent="."]
+
+[node name="PointAnchor" type="Node2D" parent="Rig"]
+
+[node name="PlaneResult" type="RemoteTransform2D" parent="Rig/PointAnchor"]
+remote_path = NodePath("../../../Visual/PointSprite")
