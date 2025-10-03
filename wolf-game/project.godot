@@ -56,6 +56,14 @@ lmb={
 ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Player Character"
+2d_physics/layer_2="NPC - Prey"
+2d_physics/layer_3="NPC - Predator"
+2d_physics/layer_4="Items"
+2d_physics/layer_5="Barriers"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

@@ -1,13 +1,22 @@
-[gd_scene load_steps=6 format=3 uid="uid://cklllfk0xvrfb"]
+[gd_scene load_steps=9 format=3 uid="uid://cklllfk0xvrfb"]
 
 [ext_resource type="Texture2D" uid="uid://w0t5fnt7d5xo" path="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_chest02.png" id="1_tybqm"]
 [ext_resource type="Texture2D" uid="uid://dgj3vl50ewe0u" path="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_head01.png" id="2_n6074"]
-[ext_resource type="Script" uid="uid://qteoyplxdwbb" path="res://character_body_2d.gd" id="2_vdhjx"]
+[ext_resource type="Script" uid="uid://qteoyplxdwbb" path="res://scripts/PlayerCreature.gd" id="2_vdhjx"]
 [ext_resource type="Texture2D" uid="uid://1n5debpwyn1" path="res://sprites/TEMP_sprites/TEMP_ElkBody.png" id="3_vdhjx"]
+[ext_resource type="Texture2D" uid="uid://c82epf5siruhv" path="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_snout01.png" id="4_vdhjx"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rqmo0"]
 radius = 73.0924
 height = 269.88
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vdhjx"]
+radius = 29.6501
+height = 59.3002
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3uhji"]
+radius = 121.0
+height = 506.0
 
 [node name="Wolf Scene 01" type="Node2D"]
 
@@ -25,30 +34,52 @@ zoom = Vector2(0.22, 0.22)
 [node name="PlaneResult" type="RemoteTransform2D" parent="Rig/PointAnchor"]
 remote_path = NodePath("../../../Visual/PointSprite")
 
-[node name="TEMP_ElkBody" type="Sprite2D" parent="."]
-position = Vector2(4555, 2658)
-rotation = 1.57079
-scale = Vector2(3.60228, 3.91194)
-texture = ExtResource("3_vdhjx")
-
 [node name="WolfBody2D" type="CharacterBody2D" parent="."]
 script = ExtResource("2_vdhjx")
 
-[node name="TEMP_WolfBody" type="Sprite2D" parent="WolfBody2D"]
-position = Vector2(-1, 8.00003)
-scale = Vector2(3.48958, 1.8587)
-texture = ExtResource("1_tybqm")
-
-[node name="TEMP_WolfHead" type="Sprite2D" parent="WolfBody2D/TEMP_WolfBody"]
-position = Vector2(45.2776, -28.2456)
-scale = Vector2(0.48255, 0.99083)
-texture = ExtResource("2_n6074")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="WolfBody2D"]
+[node name="Collision - Body" type="CollisionShape2D" parent="WolfBody2D"]
 position = Vector2(-5, 9)
 rotation = 1.5708
 scale = Vector2(1.245, 1.245)
 shape = SubResource("CapsuleShape2D_rqmo0")
-one_way_collision = true
 one_way_collision_margin = 0.0
-debug_color = Color(0.776471, 0, 0, 0.729412)
+debug_color = Color(0.158876, 0.463139, 0.45594, 0.560784)
+
+[node name="TEMP_WolfBody" type="Sprite2D" parent="WolfBody2D/Collision - Body"]
+position = Vector2(-0.803201, -3.21285)
+rotation = -1.5708
+scale = Vector2(2.80288, 1.49293)
+texture = ExtResource("1_tybqm")
+
+[node name="TEMP_WolfHead" type="Sprite2D" parent="WolfBody2D/Collision - Body/TEMP_WolfBody"]
+position = Vector2(45.2776, -28.2456)
+scale = Vector2(0.48255, 0.99083)
+texture = ExtResource("2_n6074")
+
+[node name="TEMP_WolfSnout" type="Sprite2D" parent="WolfBody2D/Collision - Body/TEMP_WolfBody/TEMP_WolfHead"]
+position = Vector2(35.1844, 27.8704)
+rotation = -0.965285
+scale = Vector2(1.14372, 1.16312)
+texture = ExtResource("4_vdhjx")
+
+[node name="Collision - BiteZone" type="CollisionShape2D" parent="WolfBody2D"]
+position = Vector2(215, 6)
+rotation = -1.31292
+scale = Vector2(1.91763, 2.19694)
+skew = 0.204201
+shape = SubResource("CapsuleShape2D_vdhjx")
+debug_color = Color(0.978888, 0.144944, 3.85046e-07, 0.42)
+
+[node name="ElkBody" type="CharacterBody2D" parent="."]
+
+[node name="TEMP_ElkBody" type="Sprite2D" parent="ElkBody"]
+position = Vector2(535.001, -200)
+rotation = 1.57079
+scale = Vector2(3.60228, 3.91194)
+texture = ExtResource("3_vdhjx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ElkBody"]
+position = Vector2(534, -201)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_3uhji")
+debug_color = Color(2.40654e-06, 0.645985, 0.247771, 0.42)
