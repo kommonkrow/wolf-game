@@ -1,6 +1,18 @@
-[gd_scene format=3 uid="uid://cklllfk0xvrfb"]
+[gd_scene load_steps=6 format=3 uid="uid://cklllfk0xvrfb"]
+
+[ext_resource type="Texture2D" uid="uid://w0t5fnt7d5xo" path="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_chest02.png" id="1_tybqm"]
+[ext_resource type="Texture2D" uid="uid://dgj3vl50ewe0u" path="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_head01.png" id="2_n6074"]
+[ext_resource type="Script" uid="uid://qteoyplxdwbb" path="res://character_body_2d.gd" id="2_vdhjx"]
+[ext_resource type="Texture2D" uid="uid://1n5debpwyn1" path="res://sprites/TEMP_sprites/TEMP_ElkBody.png" id="3_vdhjx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rqmo0"]
+radius = 73.0924
+height = 269.88
 
 [node name="Wolf Scene 01" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.22, 0.22)
 
 [node name="Visual" type="Node2D" parent="."]
 
@@ -12,3 +24,31 @@
 
 [node name="PlaneResult" type="RemoteTransform2D" parent="Rig/PointAnchor"]
 remote_path = NodePath("../../../Visual/PointSprite")
+
+[node name="TEMP_ElkBody" type="Sprite2D" parent="."]
+position = Vector2(4555, 2658)
+rotation = 1.57079
+scale = Vector2(3.60228, 3.91194)
+texture = ExtResource("3_vdhjx")
+
+[node name="WolfBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("2_vdhjx")
+
+[node name="TEMP_WolfBody" type="Sprite2D" parent="WolfBody2D"]
+position = Vector2(-1, 8.00003)
+scale = Vector2(3.48958, 1.8587)
+texture = ExtResource("1_tybqm")
+
+[node name="TEMP_WolfHead" type="Sprite2D" parent="WolfBody2D/TEMP_WolfBody"]
+position = Vector2(45.2776, -28.2456)
+scale = Vector2(0.48255, 0.99083)
+texture = ExtResource("2_n6074")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WolfBody2D"]
+position = Vector2(-5, 9)
+rotation = 1.5708
+scale = Vector2(1.245, 1.245)
+shape = SubResource("CapsuleShape2D_rqmo0")
+one_way_collision = true
+one_way_collision_margin = 0.0
+debug_color = Color(0.776471, 0, 0, 0.729412)
