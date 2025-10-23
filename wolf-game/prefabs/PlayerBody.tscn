@@ -13,7 +13,7 @@ height = 269.88
 radius = 39.918
 height = 136.0
 
-[node name="WolfBody2D" type="CharacterBody2D"]
+[node name="WolfBody2D" type="CharacterBody2D" groups=["Carnivore"]]
 script = ExtResource("1_6fjyp")
 
 [node name="Collision - Body" type="CollisionShape2D" parent="."]

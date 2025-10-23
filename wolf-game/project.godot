@@ -19,6 +19,14 @@ config/icon="res://sprites/icon.svg"
 
 project/assembly_name="Wolf Game"
 
+[global_group]
+
+Awareness=""
+Herbivore=""
+HurtBox=""
+HitBox=""
+Carnivore=""
+
 [input]
 
 left={
