@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://bnfjlak3nc7pf"]
+
+[ext_resource type="Script" uid="uid://dkw4if0gcvgyu" path="res://scripts/PreyCreature.gd" id="1_e3l10"]
+[ext_resource type="Texture2D" uid="uid://1n5debpwyn1" path="res://sprites/TEMP_sprites/TEMP_ElkBody.png" id="2_6jb8b"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3uhji"]
+radius = 121.0
+height = 506.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_c55ag"]
+radius = 149.0
+height = 562.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2qdaw"]
+radius = 60.9638
+height = 167.893
+
+[node name="ElkBody" type="CharacterBody2D"]
+script = ExtResource("1_e3l10")
+metadata/preyHealth = 10
+
+[node name="Collision - ElkBody" type="CollisionShape2D" parent="."]
+position = Vector2(0, -14)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_3uhji")
+debug_color = Color(2.40654e-06, 0.645985, 0.247771, 0.42)
+
+[node name="TEMP_ElkBody" type="Sprite2D" parent="Collision - ElkBody"]
+position = Vector2(1, -1.00098)
+scale = Vector2(3.60228, 3.91194)
+texture = ExtResource("2_6jb8b")
+
+[node name="HitBox - ElkWholeBody" type="Area2D" parent="." groups=["HurtBox"]]
+position = Vector2(3, -14)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox - ElkWholeBody"]
+position = Vector2(2, -2)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_c55ag")
+
+[node name="Awareness - Elk" type="Area2D" parent="."]
+visible = false
+position = Vector2(3, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Awareness - Elk"]
+position = Vector2(246, -14)
+scale = Vector2(23.395, 23.395)
+shape = SubResource("CapsuleShape2D_2qdaw")
+disabled = true
+
+[connection signal="area_entered" from="HitBox - ElkWholeBody" to="." method="_on_hit_box__elk_whole_body_area_entered"]
