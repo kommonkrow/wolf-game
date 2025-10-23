@@ -19,7 +19,7 @@ height = 167.893
 script = ExtResource("1_e3l10")
 metadata/preyHealth = 10
 
-[node name="Collision - ElkBody" type="CollisionShape2D" parent="."]
+[node name="Collision - ElkBody" type="CollisionShape2D" parent="." groups=["Herbivore"]]
 position = Vector2(0, -14)
 rotation = 1.5708
 shape = SubResource("CapsuleShape2D_3uhji")
@@ -38,14 +38,12 @@ position = Vector2(2, -2)
 rotation = 1.5708
 shape = SubResource("CapsuleShape2D_c55ag")
 
-[node name="Awareness - Elk" type="Area2D" parent="."]
-visible = false
+[node name="Awareness - Elk" type="Area2D" parent="." groups=["Awareness"]]
 position = Vector2(3, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Awareness - Elk"]
 position = Vector2(246, -14)
 scale = Vector2(23.395, 23.395)
 shape = SubResource("CapsuleShape2D_2qdaw")
-disabled = true
 
 [connection signal="area_entered" from="HitBox - ElkWholeBody" to="." method="_on_hit_box__elk_whole_body_area_entered"]
