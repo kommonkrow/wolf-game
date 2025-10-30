@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://b85eh6afewq4c"]
+[gd_scene load_steps=8 format=3 uid="uid://b85eh6afewq4c"]
 
 [ext_resource type="Script" uid="uid://qteoyplxdwbb" path="res://scripts/PlayerCreature.gd" id="1_6fjyp"]
 [ext_resource type="Texture2D" uid="uid://w0t5fnt7d5xo" path="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_chest02.png" id="2_hnniu"]
@@ -12,6 +12,10 @@ height = 269.88
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vdhjx"]
 radius = 39.918
 height = 136.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6fjyp"]
+radius = 146.0
+height = 606.0
 
 [node name="WolfBody2D" type="CharacterBody2D" groups=["Carnivore"]]
 script = ExtResource("1_6fjyp")
@@ -51,5 +55,12 @@ skew = 0.0157424
 position = Vector2(1.00145, 1.99916)
 rotation = -1.02974
 shape = SubResource("CapsuleShape2D_vdhjx")
+
+[node name="Area2D - Detection Radius" type="Area2D" parent="." groups=["Carnivore"]]
+
+[node name="Detection Collision" type="CollisionShape2D" parent="Area2D - Detection Radius"]
+position = Vector2(62, 0)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_6fjyp")
 
 [connection signal="area_entered" from="Collision - Body/TEMP_WolfBody/TEMP_WolfHead/TEMP_WolfSnout/Area2D - BiteBox" to="." method="_on_area_2d__bite_box_area_entered"]
