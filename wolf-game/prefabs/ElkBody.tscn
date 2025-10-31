@@ -12,8 +12,8 @@ radius = 149.0
 height = 562.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2qdaw"]
-radius = 60.9638
-height = 167.893
+radius = 34.7083
+height = 86.8562
 
 [node name="ElkBody" type="CharacterBody2D"]
 script = ExtResource("1_e3l10")
