@@ -6,7 +6,7 @@
 [node name="Wolf Scene 01" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(0.11, 0.11)
+zoom = Vector2(0.15, 0.15)
 position_smoothing_enabled = true
 rotation_smoothing_speed = 9.085
 drag_horizontal_enabled = true

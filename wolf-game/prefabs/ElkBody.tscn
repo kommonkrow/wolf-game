@@ -46,5 +46,8 @@ position = Vector2(246, -14)
 scale = Vector2(23.395, 23.395)
 shape = SubResource("CapsuleShape2D_2qdaw")
 
+[node name="Timer" type="Timer" parent="."]
+
 [connection signal="area_entered" from="HitBox - ElkWholeBody" to="." method="_on_hit_box__elk_whole_body_area_entered"]
 [connection signal="area_entered" from="Awareness - Elk" to="." method="_on_awareness__elk_area_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
