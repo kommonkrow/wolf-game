@@ -16,6 +16,7 @@ radius = 34.7083
 height = 86.8562
 
 [node name="ElkBody" type="CharacterBody2D"]
+floor_constant_speed = true
 script = ExtResource("1_e3l10")
 metadata/preyHealth = 10
 
@@ -26,6 +27,7 @@ shape = SubResource("CapsuleShape2D_3uhji")
 debug_color = Color(2.40654e-06, 0.645985, 0.247771, 0.42)
 
 [node name="TEMP_ElkBody" type="Sprite2D" parent="Collision - ElkBody"]
+y_sort_enabled = true
 position = Vector2(1, -1.00098)
 scale = Vector2(3.60228, 3.91194)
 texture = ExtResource("2_6jb8b")

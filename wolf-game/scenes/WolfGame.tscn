@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://b85eh6afewq4c" path="res://prefabs/PlayerBody.tscn" id="1_yqfat"]
 [ext_resource type="PackedScene" uid="uid://bnfjlak3nc7pf" path="res://prefabs/ElkBody.tscn" id="2_mvh45"]
 
-[node name="Wolf Scene 01" type="Node2D"]
+[node name="Game" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.15, 0.15)

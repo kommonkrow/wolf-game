@@ -7,6 +7,8 @@ enum PREY_STATE { IDLE, WANDER, FLEE }
 @export var wanderTime: float = 10
 
 @onready var timer = $Timer
+@onready var awareness = $"Awareness - Elk/CollisionShape2D"
+@onready var activePredator: Vector2 = get_node("/root/Game/WolfBody2D").position
 
 var moveDirection: Vector2 = Vector2.ZERO
 var currentState: PREY_STATE = PREY_STATE.IDLE
@@ -22,6 +24,12 @@ func _physics_process(_delta):
 		velocity = moveDirection * moveSpeed
 		
 		move_and_slide()
+	if(currentState == PREY_STATE.FLEE):
+		moveSpeed = 0.15
+		moveDirection = Vector2(activePredator.x + position.x, activePredator.y + position.y)
+		velocity = moveDirection * moveSpeed
+		
+		move_and_slide()
 
 func select_new_direction():
 	moveDirection = Vector2(
@@ -33,6 +41,7 @@ func select_new_direction():
 func _on_awareness__elk_area_entered(area: Area2D) -> void:
 	if area.is_in_group("Carnivore"):
 		print("Carnivore detected.")
+		
 		currentState = PREY_STATE.FLEE
 		flee_from_predator()
 
