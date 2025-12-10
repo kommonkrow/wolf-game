@@ -14,17 +14,6 @@ drag_vertical_enabled = true
 drag_top_margin = 0.1
 drag_bottom_margin = 0.1
 
-[node name="Visual" type="Node2D" parent="."]
-
-[node name="PointSprite" type="Sprite2D" parent="Visual"]
-
-[node name="Rig" type="Node2D" parent="."]
-
-[node name="PointAnchor" type="Node2D" parent="Rig"]
-
-[node name="PlaneResult" type="RemoteTransform2D" parent="Rig/PointAnchor"]
-remote_path = NodePath("../../../Visual/PointSprite")
-
 [node name="WolfBody2D" parent="." instance=ExtResource("1_yqfat")]
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="WolfBody2D"]
