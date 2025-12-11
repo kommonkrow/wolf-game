@@ -6,6 +6,7 @@
 [node name="Game" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(0.570624, 0.570624)
 zoom = Vector2(0.15, 0.15)
 position_smoothing_enabled = true
 rotation_smoothing_speed = 9.085

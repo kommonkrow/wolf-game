@@ -1,18 +1,18 @@
 [gd_scene load_steps=10 format=3 uid="uid://b85eh6afewq4c"]
 
 [ext_resource type="Script" uid="uid://qteoyplxdwbb" path="res://scripts/PlayerCreature.gd" id="1_6fjyp"]
-[ext_resource type="Texture2D" uid="uid://dw8tvgu3n7lel" path="res://wolfSpriteNEW_body.png" id="2_huajt"]
-[ext_resource type="Texture2D" uid="uid://bnvkkc24f5veq" path="res://wolfSpriteNEW_head.png" id="3_hq1lc"]
-[ext_resource type="Texture2D" uid="uid://wgi3fodl82ed" path="res://wolfSpriteNEW_snout.png" id="4_ppkw4"]
-[ext_resource type="Texture2D" uid="uid://dxl57t8nowuaj" path="res://wolfSpriteNEW_ears.png" id="5_bx35f"]
-[ext_resource type="Texture2D" uid="uid://m1oc0affchmy" path="res://wolfSpriteNEW_tail.png" id="6_2gdji"]
+[ext_resource type="Texture2D" uid="uid://dw8tvgu3n7lel" path="res://sprites/wolfSpriteNEW_body.png" id="2_huajt"]
+[ext_resource type="Texture2D" uid="uid://bnvkkc24f5veq" path="res://sprites/wolfSpriteNEW_head.png" id="3_hq1lc"]
+[ext_resource type="Texture2D" uid="uid://wgi3fodl82ed" path="res://sprites/wolfSpriteNEW_snout.png" id="4_ppkw4"]
+[ext_resource type="Texture2D" uid="uid://dxl57t8nowuaj" path="res://sprites/wolfSpriteNEW_ears.png" id="5_bx35f"]
+[ext_resource type="Texture2D" uid="uid://m1oc0affchmy" path="res://sprites/wolfSpriteNEW_tail.png" id="6_2gdji"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rqmo0"]
-radius = 73.0924
-height = 269.88
+radius = 18.0864
+height = 120.195
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vdhjx"]
-radius = 146.528
+radius = 146.527
 height = 293.055
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6fjyp"]
@@ -20,57 +20,64 @@ radius = 211.0
 height = 804.0
 
 [node name="WolfBody2D" type="CharacterBody2D" groups=["Carnivore"]]
+scale = Vector2(0.570624, 0.570624)
 script = ExtResource("1_6fjyp")
 
 [node name="Collision - Body" type="CollisionShape2D" parent="."]
-position = Vector2(-5, 16)
+position = Vector2(96.3857, -4.45652e-11)
 rotation = 1.5708
-scale = Vector2(1.245, 1.245)
+scale = Vector2(-7.36395, -5.59878)
 shape = SubResource("CapsuleShape2D_rqmo0")
 one_way_collision_margin = 0.0
 debug_color = Color(0.158876, 0.463139, 0.45594, 0.560784)
 
-[node name="WolfBody" type="Sprite2D" parent="Collision - Body"]
-position = Vector2(-12.8516, -40.9638)
-scale = Vector2(0.876948, 0.918633)
+[node name="Area2D - Detection Radius" type="Area2D" parent="." groups=["Carnivore"]]
+
+[node name="WolfBody" type="Sprite2D" parent="Area2D - Detection Radius"]
+z_index = 1
+position = Vector2(46, -5.84949e-05)
+rotation = 1.5708
+scale = Vector2(1.0918, 1.1437)
 texture = ExtResource("2_huajt")
 
-[node name="WolfHead" type="Sprite2D" parent="Collision - Body/WolfBody"]
+[node name="WolfHead" type="Sprite2D" parent="Area2D - Detection Radius/WolfBody"]
+z_index = 2
 position = Vector2(-0.00100969, -265.804)
 scale = Vector2(0.859819, 1.0571)
 texture = ExtResource("3_hq1lc")
 
-[node name="WolfSnout" type="Sprite2D" parent="Collision - Body/WolfBody/WolfHead"]
+[node name="WolfSnout" type="Sprite2D" parent="Area2D - Detection Radius/WolfBody/WolfHead"]
+z_index = 3
 position = Vector2(-0.000559146, -119.934)
 scale = Vector2(1.14372, 1.16312)
 texture = ExtResource("4_ppkw4")
 
-[node name="Area2D - BiteBox" type="Area2D" parent="Collision - Body/WolfBody/WolfHead/WolfSnout" groups=["HitBox"]]
+[node name="Area2D - BiteBox" type="Area2D" parent="Area2D - Detection Radius/WolfBody/WolfHead/WolfSnout" groups=["HitBox"]]
 position = Vector2(-0.435865, -0.477708)
 rotation = 0.958186
 scale = Vector2(0.513396, 0.472207)
 skew = 0.0157424
 
-[node name="BiteBox Collision" type="CollisionShape2D" parent="Collision - Body/WolfBody/WolfHead/WolfSnout/Area2D - BiteBox"]
+[node name="BiteBox Collision" type="CollisionShape2D" parent="Area2D - Detection Radius/WolfBody/WolfHead/WolfSnout/Area2D - BiteBox"]
 position = Vector2(-1.04469, -1.9056)
 skew = -0.274017
 shape = SubResource("CapsuleShape2D_vdhjx")
 
-[node name="WolfEars" type="Sprite2D" parent="Collision - Body/WolfBody/WolfHead"]
+[node name="WolfEars" type="Sprite2D" parent="Area2D - Detection Radius/WolfBody/WolfHead"]
+z_index = 3
 position = Vector2(0.000134966, 28.9496)
 scale = Vector2(1, 0.834574)
 texture = ExtResource("5_bx35f")
 
-[node name="WolfTail" type="Sprite2D" parent="Collision - Body/WolfBody"]
+[node name="WolfTail" type="Sprite2D" parent="Area2D - Detection Radius/WolfBody"]
+z_index = 2
 position = Vector2(0.00115209, 304.276)
 scale = Vector2(1, 0.77911)
 texture = ExtResource("6_2gdji")
-
-[node name="Area2D - Detection Radius" type="Area2D" parent="." groups=["Carnivore"]]
 
 [node name="Detection Collision" type="CollisionShape2D" parent="Area2D - Detection Radius"]
 position = Vector2(46, 0)
 rotation = 1.5708
 shape = SubResource("CapsuleShape2D_6fjyp")
 
-[connection signal="area_entered" from="Collision - Body/WolfBody/WolfHead/WolfSnout/Area2D - BiteBox" to="." method="_on_area_2d__bite_box_area_entered"]
+[connection signal="area_entered" from="Area2D - Detection Radius/WolfBody/WolfHead/WolfSnout/Area2D - BiteBox" to="." method="_on_area_2d__bite_box_area_entered"]

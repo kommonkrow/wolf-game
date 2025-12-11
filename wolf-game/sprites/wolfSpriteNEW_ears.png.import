@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxl57t8nowuaj"
-path="res://.godot/imported/wolfSpriteNEW_ears.png-f7aa9f1451a6398268a34207149a5407.ctex"
+path="res://.godot/imported/wolfSpriteNEW_ears.png-d0514438bd71b9790b29953778fad521.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://wolfSpriteNEW_ears.png"
-dest_files=["res://.godot/imported/wolfSpriteNEW_ears.png-f7aa9f1451a6398268a34207149a5407.ctex"]
+source_file="res://sprites/wolfSpriteNEW_ears.png"
+dest_files=["res://.godot/imported/wolfSpriteNEW_ears.png-d0514438bd71b9790b29953778fad521.ctex"]
 
 [params]
 
