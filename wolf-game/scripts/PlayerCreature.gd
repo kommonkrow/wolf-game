@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed = 100
+@export var speed = 35
 
 var target = position
 
@@ -16,7 +16,7 @@ func _input(_event):
 func _physics_process(_delta):
 	velocity = position.direction_to(target) * speed * 10
 	# look_at(target)
-	if position.distance_to(target) > 10:
+	if position.distance_to(target) > 5:
 		move_and_slide()
 
 

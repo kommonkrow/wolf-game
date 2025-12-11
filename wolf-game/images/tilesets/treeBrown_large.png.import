@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qi62wnonmh0a"
-path="res://.godot/imported/wolfspriteBasic01_sprite_tail01.png-a17f892e39295378eded39e1a6c6c23d.ctex"
+uid="uid://bj71mx7082ntu"
+path="res://.godot/imported/treeBrown_large.png-f535b3aca0c40863a8c4d282f0f33a74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_tail01.png"
-dest_files=["res://.godot/imported/wolfspriteBasic01_sprite_tail01.png-a17f892e39295378eded39e1a6c6c23d.ctex"]
+source_file="res://images/tilesets/treeBrown_large.png"
+dest_files=["res://.godot/imported/treeBrown_large.png-f535b3aca0c40863a8c4d282f0f33a74.ctex"]
 
 [params]
 

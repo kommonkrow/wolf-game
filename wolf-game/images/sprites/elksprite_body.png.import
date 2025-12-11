@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxl57t8nowuaj"
-path="res://.godot/imported/wolfSpriteNEW_ears.png-d0514438bd71b9790b29953778fad521.ctex"
+uid="uid://bypdcj8hjpmp4"
+path="res://.godot/imported/elksprite_body.png-1827fe45a8159cdc2228e22364227b57.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/wolfSpriteNEW_ears.png"
-dest_files=["res://.godot/imported/wolfSpriteNEW_ears.png-d0514438bd71b9790b29953778fad521.ctex"]
+source_file="res://images/sprites/elksprite_body.png"
+dest_files=["res://.godot/imported/elksprite_body.png-1827fe45a8159cdc2228e22364227b57.ctex"]
 
 [params]
 

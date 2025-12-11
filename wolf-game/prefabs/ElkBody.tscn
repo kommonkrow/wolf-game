@@ -1,10 +1,10 @@
 [gd_scene load_steps=9 format=3 uid="uid://bnfjlak3nc7pf"]
 
 [ext_resource type="Script" uid="uid://dkw4if0gcvgyu" path="res://scripts/PreyCreature.gd" id="1_e3l10"]
-[ext_resource type="Texture2D" uid="uid://bypdcj8hjpmp4" path="res://sprites/elksprite_body.png" id="2_xuesl"]
-[ext_resource type="Texture2D" uid="uid://b7bridr8os24" path="res://sprites/elksprite_neck.png" id="3_b4qbc"]
-[ext_resource type="Texture2D" uid="uid://cc2e1l0iidpyp" path="res://sprites/elksprite_head.png" id="4_ct1s8"]
-[ext_resource type="Texture2D" uid="uid://doa6clayvsmj" path="res://sprites/elksprite_antlers.png" id="5_aria7"]
+[ext_resource type="Texture2D" uid="uid://bypdcj8hjpmp4" path="res://images/sprites/elksprite_body.png" id="2_xuesl"]
+[ext_resource type="Texture2D" uid="uid://b7bridr8os24" path="res://images/sprites/elksprite_neck.png" id="3_b4qbc"]
+[ext_resource type="Texture2D" uid="uid://cc2e1l0iidpyp" path="res://images/sprites/elksprite_head.png" id="4_ct1s8"]
+[ext_resource type="Texture2D" uid="uid://doa6clayvsmj" path="res://images/sprites/elksprite_antlers.png" id="5_aria7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3uhji"]
 radius = 121.0
@@ -19,6 +19,7 @@ radius = 40.9917
 height = 96.3454
 
 [node name="ElkBody" type="CharacterBody2D"]
+scale = Vector2(0.179804, 0.179804)
 floor_constant_speed = true
 script = ExtResource("1_e3l10")
 metadata/preyHealth = 10

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dw8tvgu3n7lel"
-path="res://.godot/imported/wolfSpriteNEW_body.png-5d6649a5d3dc4367949e90c93a5dccda.ctex"
+uid="uid://dgj3vl50ewe0u"
+path="res://.godot/imported/wolfspriteBasic01_sprite_head01.png-6470868f50694a1de2dd1a2219e08763.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/wolfSpriteNEW_body.png"
-dest_files=["res://.godot/imported/wolfSpriteNEW_body.png-5d6649a5d3dc4367949e90c93a5dccda.ctex"]
+source_file="res://images/sprites/TEMP_sprites/wolfspriteBasic01_sprite_head01.png"
+dest_files=["res://.godot/imported/wolfspriteBasic01_sprite_head01.png-6470868f50694a1de2dd1a2219e08763.ctex"]
 
 [params]
 

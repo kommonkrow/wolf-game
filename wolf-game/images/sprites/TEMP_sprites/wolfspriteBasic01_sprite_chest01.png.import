@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8vr5fu7tkisb"
-path="res://.godot/imported/wolfspriteBasic01_sprite_R_ear01.png-2fbd3a1e823e2e3dd0e74b040320ef57.ctex"
+uid="uid://c4ndo682xy7ts"
+path="res://.godot/imported/wolfspriteBasic01_sprite_chest01.png-61397c239e049cfecb185852015615d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_R_ear01.png"
-dest_files=["res://.godot/imported/wolfspriteBasic01_sprite_R_ear01.png-2fbd3a1e823e2e3dd0e74b040320ef57.ctex"]
+source_file="res://images/sprites/TEMP_sprites/wolfspriteBasic01_sprite_chest01.png"
+dest_files=["res://.godot/imported/wolfspriteBasic01_sprite_chest01.png-61397c239e049cfecb185852015615d5.ctex"]
 
 [params]
 

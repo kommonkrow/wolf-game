@@ -20,7 +20,10 @@ func _ready():
 	pick_new_state()
 
 func _physics_process(_delta):
+	self.look_at(self.global_position + moveDirection)
+	
 	if(currentState == PREY_STATE.WANDER):
+#		moveSpeed = 100
 		velocity = moveDirection * moveSpeed
 		
 		move_and_slide()

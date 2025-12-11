@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://ixg0asjliek"]
+
+[ext_resource type="Texture2D" uid="uid://cweqbgnccv78t" path="res://images/tilesets/treeGreen_small.png" id="1_b8v5k"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_b8v5k"]
+radius = 79.5015
+
+[node name="TreeSmall" type="StaticBody2D"]
+z_index = 10
+y_sort_enabled = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 5
+rotation = 0.0650412
+shape = SubResource("CircleShape2D_b8v5k")
+
+[node name="TreeGreenSmall" type="Sprite2D" parent="CollisionShape2D"]
+rotation = -0.00537395
+scale = Vector2(2.5138, 2.5138)
+texture = ExtResource("1_b8v5k")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7bridr8os24"
-path="res://.godot/imported/elksprite_neck.png-64a59db6ba2968a88a5a74ff3caf9b25.ctex"
+uid="uid://qi62wnonmh0a"
+path="res://.godot/imported/wolfspriteBasic01_sprite_tail01.png-b1294b7330e053611bf99063e6b40d47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/elksprite_neck.png"
-dest_files=["res://.godot/imported/elksprite_neck.png-64a59db6ba2968a88a5a74ff3caf9b25.ctex"]
+source_file="res://images/sprites/TEMP_sprites/wolfspriteBasic01_sprite_tail01.png"
+dest_files=["res://.godot/imported/wolfspriteBasic01_sprite_tail01.png-b1294b7330e053611bf99063e6b40d47.ctex"]
 
 [params]
 

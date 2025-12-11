@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1n5debpwyn1"
-path="res://.godot/imported/TEMP_ElkBody.png-a955395a8ad4d8af53d7acd70798805f.ctex"
+uid="uid://dacx0fmplpqr3"
+path="res://.godot/imported/onlyObjects_default.png-ae34cde952520889c59a0c2a7e07457b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/TEMP_sprites/TEMP_ElkBody.png"
-dest_files=["res://.godot/imported/TEMP_ElkBody.png-a955395a8ad4d8af53d7acd70798805f.ctex"]
+source_file="res://images/tilesets/onlyObjects_default.png"
+dest_files=["res://.godot/imported/onlyObjects_default.png-ae34cde952520889c59a0c2a7e07457b.ctex"]
 
 [params]
 

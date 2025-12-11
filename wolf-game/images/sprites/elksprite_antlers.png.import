@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wgi3fodl82ed"
-path="res://.godot/imported/wolfSpriteNEW_snout.png-0f422f976f3571f7b7adc01267434c2d.ctex"
+uid="uid://doa6clayvsmj"
+path="res://.godot/imported/elksprite_antlers.png-5f7662b6fe05059574e5f2d92c908dfe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/wolfSpriteNEW_snout.png"
-dest_files=["res://.godot/imported/wolfSpriteNEW_snout.png-0f422f976f3571f7b7adc01267434c2d.ctex"]
+source_file="res://images/sprites/elksprite_antlers.png"
+dest_files=["res://.godot/imported/elksprite_antlers.png-5f7662b6fe05059574e5f2d92c908dfe.ctex"]
 
 [params]
 

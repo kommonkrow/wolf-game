@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c82epf5siruhv"
-path="res://.godot/imported/wolfspriteBasic01_sprite_snout01.png-69531698fb6d7c7c81f6ac43ea92fb8d.ctex"
+uid="uid://wgi3fodl82ed"
+path="res://.godot/imported/wolfSpriteNEW_snout.png-1a9e73d8c0489ebcd726086c31e1b7db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_snout01.png"
-dest_files=["res://.godot/imported/wolfspriteBasic01_sprite_snout01.png-69531698fb6d7c7c81f6ac43ea92fb8d.ctex"]
+source_file="res://images/sprites/wolfSpriteNEW_snout.png"
+dest_files=["res://.godot/imported/wolfSpriteNEW_snout.png-1a9e73d8c0489ebcd726086c31e1b7db.ctex"]
 
 [params]
 

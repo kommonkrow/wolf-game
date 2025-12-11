@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://75vj4pswdpfk"
-path="res://.godot/imported/wolfspriteBasic01_sprite_L_ear_01.png-53feb431f4fa97279fbcb003a282c193.ctex"
+uid="uid://ct45v8uyohype"
+path="res://.godot/imported/terrainTiles_default.png-f1d6d6b0470ba3a2500c71d8e98c3f5a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/TEMP_sprites/wolfspriteBasic01_sprite_L_ear_01.png"
-dest_files=["res://.godot/imported/wolfspriteBasic01_sprite_L_ear_01.png-53feb431f4fa97279fbcb003a282c193.ctex"]
+source_file="res://images/tilesets/terrainTiles_default.png"
+dest_files=["res://.godot/imported/terrainTiles_default.png-f1d6d6b0470ba3a2500c71d8e98c3f5a.ctex"]
 
 [params]
 
