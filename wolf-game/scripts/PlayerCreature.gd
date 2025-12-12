@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed = 35
+@export var speed = 40
 
 var target = position
 

@@ -1,0 +1,1727 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwuyi0glr0lwg"]
+
+[ext_resource type="PackedScene" uid="uid://c7yq8e0x0lstr" path="res://scenes/tree_green_large.tscn" id="1_sm07b"]
+[ext_resource type="PackedScene" uid="uid://ixg0asjliek" path="res://scenes/tree_green_small.tscn" id="2_hn1kd"]
+
+[node name="BorderTrees" type="CanvasGroup"]
+z_index = 10
+
+[node name="TreeGreenLarge" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1060.58, 1697.09)
+rotation = 0.27301
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeGreenLarge3" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(686.179, 2071.49)
+rotation = -1.38742
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeGreenLarge2" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1584.15, 1769.39)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeGreenLarge26" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2265, -42.5008)
+rotation = -0.938707
+scale = Vector2(1.53099, 1.53099)
+
+[node name="TreeSmall" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1302.05, 1560.72)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall3" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1572.12, 1938.24)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall71" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1402.05, 2023.27)
+rotation = 0.610194
+scale = Vector2(1.02154, 1.02154)
+
+[node name="TreeGreenLarge6" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2040.26, 1958.52)
+rotation = 0.433325
+scale = Vector2(0.412226, 0.412226)
+
+[node name="TreeSmall8" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2044.06, 2116.81)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall72" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1529.6, 2146.57)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall2" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(871.384, 1908.33)
+rotation = 0.610194
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall4" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(868.858, 2092.19)
+rotation = -1.04148
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall69" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1150.43, 2078.14)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeSmall42" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1596.82, -599.88)
+rotation = 0.610194
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall43" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2079.33, -585.381)
+rotation = -1.04148
+scale = Vector2(2.05628, 2.05628)
+
+[node name="TreeGreenLarge11" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1756.37, 1084.14)
+rotation = -1.38742
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall16" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1506.54, 1071.49)
+rotation = 0.610194
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall17" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1509.07, 1255.36)
+rotation = -1.04148
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge4" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2210.88, 1916.27)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall5" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2396.08, 1735.54)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall6" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2421.6, 1946.36)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall73" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2603.61, 2295.63)
+rotation = 0.27773
+scale = Vector2(1.57527, 1.57527)
+
+[node name="TreeGreenLarge8" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1748.46, 54.5667)
+rotation = -1.11637
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall12" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1850.65, -135.821)
+rotation = 0.881243
+scale = Vector2(1.43586, 1.43586)
+
+[node name="TreeSmall13" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1658.53, -99.3011)
+rotation = -0.770431
+scale = Vector2(1.02713, 1.02713)
+
+[node name="TreeSmall11" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2857.2, 2045.09)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge7" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3074.99, 1125.19)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall9" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3037.31, 1487.83)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall10" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3176.84, 1275.56)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge15" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2774.81, 214.44)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall22" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2802.46, 591.995)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall23" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2876.65, 364.812)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeLarge" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1381.82, 1766.57)
+rotation = -0.502234
+
+[node name="TreeGreenLarge47" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3351.77, -161.12)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall84" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3069.66, -369.794)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall85" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3452.92, 7.72607)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall86" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3282.85, 92.7616)
+rotation = 0.610194
+scale = Vector2(1.02154, 1.02154)
+
+[node name="TreeSmall87" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3410.4, 216.062)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall88" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3031.23, 147.625)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeLarge29" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3149.44, -163.941)
+rotation = -0.502234
+
+[node name="TreeGreenLarge20" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1500.32, -753.961)
+rotation = 0.27301
+scale = Vector2(1.51841, 1.51841)
+
+[node name="TreeGreenLarge39" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(294.571, -1718.28)
+rotation = -0.0658094
+scale = Vector2(1.51841, 1.51841)
+
+[node name="TreeGreenLarge22" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1186.19, -977.793)
+rotation = 0.279603
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeGreenLarge21" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2212.02, -638.436)
+rotation = 0.310297
+scale = Vector2(-0.881678, -0.881678)
+
+[node name="TreeSmall30" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1776.58, -917.387)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall31" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2046.65, -539.867)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall32" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1293.46, -532.787)
+rotation = -0.025382
+scale = Vector2(1.5946, 1.5946)
+
+[node name="TreeSmall34" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1458.36, -1072.26)
+rotation = -0.0526415
+scale = Vector2(1.86992, 1.86992)
+
+[node name="TreeGreenLarge24" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-375.203, -1318.88)
+rotation = 0.27301
+scale = Vector2(1.51841, 1.51841)
+
+[node name="TreeGreenLarge25" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-689.34, -1542.71)
+rotation = 0.279603
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeSmall37" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-417.168, -1637.17)
+rotation = -0.0526415
+scale = Vector2(1.86992, 1.86992)
+
+[node name="TreeSmall33" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1323.82, -250.79)
+rotation = -1.04148
+scale = Vector2(1.1124, 1.1124)
+
+[node name="TreeLarge12" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1856.35, -711.534)
+rotation = -0.502234
+
+[node name="TreeSmall78" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(982.092, -1560.55)
+rotation = 0.881243
+scale = Vector2(1.43586, 1.43586)
+
+[node name="TreeSmall79" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(626.933, -1637.92)
+rotation = 1.11115
+scale = Vector2(1.73234, 1.73234)
+
+[node name="TreeLarge27" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(806.552, -1391.46)
+rotation = 0.13846
+
+[node name="TreeGreenLarge27" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1947.8, 409.341)
+rotation = 0.27301
+scale = Vector2(1.51841, 1.51841)
+
+[node name="TreeGreenLarge28" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1389.43, 454.59)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall44" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1671.54, 245.915)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall45" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1989.76, 91.0452)
+rotation = -0.0526415
+scale = Vector2(1.86992, 1.86992)
+
+[node name="TreeLarge15" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1591.77, 451.769)
+rotation = -0.502234
+
+[node name="TreeGreenLarge50" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2006.27, 1150.66)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall94" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2288.38, 941.982)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge30" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2208.61, 1147.83)
+rotation = -0.502234
+
+[node name="TreeGreenLarge14" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1745.72, 2398.65)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall21" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1733.69, 2567.5)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall70" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1265.99, 2295.38)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge7" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1543.39, 2395.83)
+rotation = -0.502234
+
+[node name="TreeGreenLarge12" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-475.61, -901.011)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall18" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-615.677, -1122.99)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall19" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-487.644, -732.165)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge5" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-677.943, -903.832)
+rotation = -0.502234
+
+[node name="TreeGreenLarge23" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(955.705, -1071.57)
+rotation = -0.493572
+scale = Vector2(0.707694, 0.707694)
+
+[node name="TreeGreenLarge38" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(538.072, -1445.31)
+rotation = -1.22103
+scale = Vector2(0.600471, 0.600471)
+
+[node name="TreeSmall35" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(624.23, -1271.53)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall36" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(894.302, -894.015)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge13" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(709.812, -1065.68)
+rotation = -0.502234
+
+[node name="TreeGreenLarge9" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1514.78, 803.051)
+rotation = 0.27301
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeGreenLarge10" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-991.201, 875.356)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall14" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1273.31, 666.681)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall15" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1003.24, 1044.2)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge43" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1989.26, 787.897)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall76" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2001.29, 956.743)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge4" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1193.53, 872.535)
+rotation = -0.502234
+
+[node name="TreeGreenLarge37" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(512.451, 2329.32)
+rotation = -0.0858039
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeGreenLarge40" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1016.62, 2360.18)
+rotation = -0.866132
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall74" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3466.3, 732.727)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeSmall75" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3581.86, 949.975)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge42" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3332.49, 1014.78)
+rotation = -0.866132
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall80" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-949.674, -1882.53)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeSmall81" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-834.114, -1665.29)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge45" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1083.48, -1600.48)
+rotation = -0.866132
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall55" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(434.646, 2072.74)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge41" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-626.237, 184.889)
+rotation = -1.38742
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeSmall66" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-441.031, 21.7278)
+rotation = 0.610194
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall67" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-443.557, 205.593)
+rotation = -1.04148
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall68" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-877.77, 186.141)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall56" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(530.179, 2608.71)
+rotation = 0.610194
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeGreenLarge48" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1047.73, 2681.6)
+rotation = -0.570567
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeSmall89" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1230.41, 2702.3)
+rotation = -0.224628
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge49" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(8.16003, 2865.86)
+rotation = 0.731049
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall90" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(796.193, 2682.85)
+rotation = 1.42705
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall184" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(588.147, 2793.97)
+rotation = -1.04148
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall185" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(985.283, 2997.16)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge102" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(735.913, 3061.96)
+rotation = -0.866132
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeGreenLarge103" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(767.015, 3383.38)
+rotation = -0.570567
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeSmall186" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(949.694, 3404.08)
+rotation = -0.224628
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall187" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-740.833, 3067.72)
+rotation = 1.42705
+scale = Vector2(1.92557, 1.92557)
+
+[node name="TreeGreenLarge100" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-386.539, 3114.13)
+rotation = -1.38742
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeSmall180" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-201.333, 2950.97)
+rotation = 0.610194
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall181" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-203.859, 3134.83)
+rotation = -1.04148
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge101" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-560.266, 3371.96)
+rotation = -0.0858039
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall182" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-542.538, 3651.35)
+rotation = 0.610194
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeSmall183" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-276.525, 3725.49)
+rotation = 1.42705
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall91" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(320.16, 2896.25)
+rotation = 1.42705
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeGreenLarge95" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3857.69, 919.938)
+rotation = -1.38742
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeSmall171" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3672.48, 77.6877)
+rotation = 0.610194
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall172" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3669.96, 261.553)
+rotation = -1.04148
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge96" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3313.55, 498.679)
+rotation = -0.0858039
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall173" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3235.74, 242.101)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall174" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3331.28, 778.07)
+rotation = 0.610194
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeSmall175" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3720.76, 759.608)
+rotation = 1.42705
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall188" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(157.036, 3081.24)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeSmall189" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(272.597, 3298.49)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge104" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(23.2268, 3363.29)
+rotation = -0.866132
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeGreenLarge105" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(548.423, 3268.45)
+rotation = -1.38742
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeSmall190" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(22.0112, 3126.58)
+rotation = 0.610194
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeSmall191" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(411.495, 3108.12)
+rotation = 1.42705
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall176" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3671.11, 530.825)
+rotation = 1.42705
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeLarge23" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(146.129, 2458.09)
+rotation = 0.433284
+scale = Vector2(1.63311, 1.63311)
+
+[node name="TreeLarge3" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1809.85, 2076.53)
+rotation = -1.21951
+scale = Vector2(1.25175, 1.25175)
+
+[node name="TreeGreenLarge5" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2635.55, 1928.2)
+rotation = -0.533743
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeSmall7" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3173.79, 1659.58)
+rotation = -0.196559
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge2" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2963.81, 1807.41)
+rotation = -1.05985
+
+[node name="TreeSmall24" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3055.99, 485.604)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall25" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3192.46, 657.356)
+rotation = -0.196559
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge8" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2982.49, 805.186)
+rotation = -1.05985
+
+[node name="TreeSmall60" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1289.4, -1086.72)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall61" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1218.16, -1286.82)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall62" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1029.47, -1147.32)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall63" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-892.994, -975.57)
+rotation = -0.196559
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge54" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1618.15, -1489.07)
+rotation = -1.9953
+scale = Vector2(0.970083, 0.970083)
+
+[node name="TreeSmall103" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1318.6, -1530.98)
+rotation = -1.65812
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall104" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1606.12, -1320.22)
+rotation = -1.65812
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge32" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1256.34, -1311.83)
+rotation = -2.77055
+
+[node name="TreeSmall105" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1041.29, -1383.56)
+rotation = -2.46487
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge25" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-813.077, -1225.86)
+rotation = -1.05985
+
+[node name="TreeSmall48" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1591.14, 2129.07)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall49" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1533.93, 1896.23)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall50" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1354.59, 2017.02)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall51" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1218.12, 2188.77)
+rotation = -0.196559
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge18" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1428.09, 2336.6)
+rotation = -1.05985
+
+[node name="TreeLarge24" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1942.55, 2069.08)
+rotation = -0.642402
+
+[node name="TreeSmall38" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-138.317, -1526.68)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall39" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-81.1071, -1759.52)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall40" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(252.119, -1436.6)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall41" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(265.49, -1228.89)
+rotation = -0.196559
+scale = Vector2(1.17193, 1.17193)
+
+[node name="TreeSmall65" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(416.233, -1365.75)
+rotation = 1.28695
+scale = Vector2(0.821279, 0.821279)
+
+[node name="TreeGreenLarge84" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3683.9, -303.841)
+rotation = -0.0658094
+scale = Vector2(1.51841, 1.51841)
+
+[node name="TreeSmall152" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(4016.26, -223.478)
+rotation = 1.11115
+scale = Vector2(1.73234, 1.73234)
+
+[node name="TreeLarge52" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(4195.88, 22.9882)
+rotation = 0.13846
+
+[node name="TreeGreenLarge85" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3927.4, -30.8706)
+rotation = -1.22103
+scale = Vector2(0.600471, 0.600471)
+
+[node name="TreeSmall153" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(4013.56, 142.909)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge53" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(4099.14, 348.762)
+rotation = -0.502234
+
+[node name="TreeSmall154" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3950.12, 590.052)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall155" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3835.59, 419.057)
+rotation = -0.196559
+scale = Vector2(1.17193, 1.17193)
+
+[node name="TreeSmall156" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3805.56, 48.6981)
+rotation = 1.28695
+scale = Vector2(0.821279, 0.821279)
+
+[node name="TreeGreenLarge52" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2018.02, -1164.82)
+rotation = 0.518246
+scale = Vector2(0.962765, 0.962765)
+
+[node name="TreeSmall99" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2438.39, -835.949)
+rotation = 0.612535
+scale = Vector2(1.55434, 1.55434)
+
+[node name="TreeSmall100" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2364.39, -1147.33)
+rotation = 1.11115
+scale = Vector2(1.73234, 1.73234)
+
+[node name="TreeLarge31" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2828.17, -655.788)
+rotation = 0.455033
+scale = Vector2(1.16021, 1.16021)
+
+[node name="TreeGreenLarge53" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2275.53, -954.728)
+rotation = -1.22103
+scale = Vector2(0.600471, 0.600471)
+
+[node name="TreeSmall101" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1799.31, -1174.41)
+rotation = 0.0759643
+scale = Vector2(1.33604, 1.33604)
+
+[node name="TreeSmall102" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2153.69, -875.159)
+rotation = 1.28695
+scale = Vector2(0.821279, 0.821279)
+
+[node name="TreeLarge14" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(24.7303, -1319.14)
+rotation = -1.05985
+
+[node name="TreeSmall57" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-424.223, 2862.12)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall64" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-343.451, 2565.66)
+rotation = -0.560468
+scale = Vector2(2.25351, 2.25351)
+
+[node name="TreeSmall92" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2113.04, 2260.09)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall93" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1899.7, 2452.48)
+rotation = -0.560468
+scale = Vector2(2.25351, 2.25351)
+
+[node name="TreeSmall58" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-176.896, 2368.47)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall59" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-114.331, 2646.47)
+rotation = -0.196559
+scale = Vector2(1.17193, 1.17193)
+
+[node name="TreeGreenLarge29" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1791.26, -753.961)
+rotation = 0.702046
+scale = Vector2(1.51841, 1.51841)
+
+[node name="TreeGreenLarge30" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1844.9, -195.786)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall46" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1914.69, -431.821)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall47" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1856.93, -26.9401)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge16" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2047.23, -198.607)
+rotation = -0.502234
+
+[node name="TreeLarge17" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1540.13, -1011.03)
+rotation = -2.02939
+
+[node name="TreeSmall20" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2247.15, 2480.84)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge13" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2025.51, 2363.95)
+rotation = -0.00694096
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeLarge6" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2353.76, 2243.16)
+rotation = -1.05985
+
+[node name="TreeGreenLarge33" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1493.54, 2567.18)
+rotation = 0.759989
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall53" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-945.328, 2481.37)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge34" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-622.61, 2918.32)
+rotation = -1.78239
+scale = Vector2(0.620646, 0.620646)
+
+[node name="TreeGreenLarge35" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1243.67, 2763.21)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall54" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1255.71, 2932.06)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge20" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1446, 2760.39)
+rotation = -0.502234
+
+[node name="TreeLarge21" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1179.55, 2441.09)
+rotation = 1.49373
+scale = Vector2(1.25175, 1.25175)
+
+[node name="TreeGreenLarge36" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-942.627, 2724.25)
+rotation = -0.00694096
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeLarge22" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-635.628, 2607.72)
+rotation = -1.05985
+
+[node name="TreeGreenLarge76" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2297.6, -1001.1)
+rotation = -1.38742
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeGreenLarge77" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2471.33, -743.268)
+rotation = -0.0858039
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall136" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2549.14, -999.846)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall137" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2453.6, -463.877)
+rotation = 0.610194
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeGreenLarge78" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2975.62, -206.726)
+rotation = 0.731049
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall138" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2187.59, -389.736)
+rotation = 1.42705
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall139" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2663.62, -176.334)
+rotation = 1.42705
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeLarge48" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2837.65, -614.498)
+rotation = 0.433284
+scale = Vector2(1.63311, 1.63311)
+
+[node name="TreeSmall140" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2748.57, 92.6953)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall141" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2535.23, 285.082)
+rotation = -0.560468
+scale = Vector2(2.25351, 2.25351)
+
+[node name="TreeSmall142" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-3160.68, -704.11)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall143" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-3098.11, -426.119)
+rotation = -0.196559
+scale = Vector2(1.17193, 1.17193)
+
+[node name="TreeGreenLarge79" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2946.95, 148.901)
+rotation = -1.78239
+scale = Vector2(0.620646, 0.620646)
+
+[node name="TreeLarge49" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2827.4, 327.139)
+rotation = -1.05985
+
+[node name="TreeGreenLarge80" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3829.81, -1480.63)
+rotation = -1.38742
+scale = Vector2(0.962087, 0.962087)
+
+[node name="TreeGreenLarge81" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3656.08, -1222.8)
+rotation = -0.0858039
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall144" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3578.27, -1479.38)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall145" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3673.81, -943.413)
+rotation = 0.610194
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeGreenLarge82" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3151.79, -686.262)
+rotation = 0.731049
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall146" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3939.82, -869.272)
+rotation = 1.42705
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall147" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3463.79, -655.87)
+rotation = 1.42705
+scale = Vector2(1.59075, 1.59075)
+
+[node name="TreeLarge50" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3289.76, -1094.03)
+rotation = 0.433284
+scale = Vector2(1.63311, 1.63311)
+
+[node name="TreeSmall148" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2586.84, -1178.85)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall149" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2800.18, -986.461)
+rotation = -0.560468
+scale = Vector2(2.25351, 2.25351)
+
+[node name="TreeSmall150" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2966.73, -1183.65)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall151" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3029.3, -905.655)
+rotation = -0.196559
+scale = Vector2(1.17193, 1.17193)
+
+[node name="TreeGreenLarge83" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2388.45, -1122.64)
+rotation = -1.78239
+scale = Vector2(0.620646, 0.620646)
+
+[node name="TreeLarge51" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2508, -944.404)
+rotation = -1.05985
+
+[node name="TreeGreenLarge16" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2461.99, -554.399)
+rotation = 0.759989
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall26" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2505.23, -279.26)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge17" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2625.28, -416.021)
+rotation = -1.06336
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall27" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2851.27, -504.149)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeGreenLarge18" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2555.37, 229.091)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall28" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2218.09, 159.809)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge9" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2090.17, -22.6027)
+rotation = -0.882444
+
+[node name="TreeGreenLarge46" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1835.95, -1237.11)
+rotation = -1.11637
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall82" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1733.76, -1427.5)
+rotation = 0.881243
+scale = Vector2(1.43586, 1.43586)
+
+[node name="TreeSmall83" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1925.89, -1390.98)
+rotation = -0.770431
+scale = Vector2(1.02713, 1.02713)
+
+[node name="TreeLarge28" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1494.25, -1314.28)
+rotation = -0.882444
+
+[node name="TreeLarge10" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2271.01, -319.537)
+rotation = -0.442788
+scale = Vector2(1.25175, 1.25175)
+
+[node name="TreeSmall29" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2708.32, 84.7705)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge19" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2486.67, -32.1253)
+rotation = -0.00694096
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeGreenLarge31" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1644.66, 1352.46)
+rotation = 0.216164
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall52" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1645.78, 1510.4)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge19" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1880, 1470.12)
+rotation = -0.442788
+scale = Vector2(1.25175, 1.25175)
+
+[node name="TreeGreenLarge32" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1664.34, 1757.53)
+rotation = -0.00694096
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeLarge11" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2814.93, -152.913)
+rotation = -1.05985
+
+[node name="TreeGreenLarge55" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2012.88, -1429.73)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeGreenLarge56" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2589.84, -1805.29)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall106" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2307.73, -2013.96)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall107" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2690.99, -1636.44)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall108" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2520.92, -1551.4)
+rotation = 0.610194
+scale = Vector2(1.02154, 1.02154)
+
+[node name="TreeSmall109" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2648.47, -1428.1)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall110" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2269.3, -1496.54)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeLarge33" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2387.51, -1808.11)
+rotation = -0.502234
+
+[node name="TreeGreenLarge57" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1450.09, -2282.6)
+rotation = 0.310297
+scale = Vector2(-0.881678, -0.881678)
+
+[node name="TreeSmall111" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1284.72, -2184.03)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge34" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2066.24, -2299.95)
+rotation = 0.455033
+scale = Vector2(1.16021, 1.16021)
+
+[node name="TreeGreenLarge58" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1700.06, -2198.56)
+rotation = 0.759989
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall112" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1743.3, -1923.43)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge59" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1863.35, -2060.19)
+rotation = -1.06336
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall113" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2089.34, -2148.31)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeGreenLarge60" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1793.44, -1415.07)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall114" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1456.16, -1484.36)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge35" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1328.24, -1666.77)
+rotation = -0.882444
+
+[node name="TreeLarge36" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1509.08, -1963.7)
+rotation = -0.442788
+scale = Vector2(1.25175, 1.25175)
+
+[node name="TreeSmall161" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(265.264, -1960.68)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge89" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-592.384, -2229.32)
+rotation = 0.310297
+scale = Vector2(-0.881678, -0.881678)
+
+[node name="TreeSmall162" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-757.75, -2130.75)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge55" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(23.7683, -2246.67)
+rotation = 0.455033
+scale = Vector2(1.16021, 1.16021)
+
+[node name="TreeGreenLarge90" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-342.407, -2145.28)
+rotation = 0.759989
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall163" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-299.169, -1870.14)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge91" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-179.122, -2006.9)
+rotation = -1.06336
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall164" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(46.8662, -2095.03)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeLarge56" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-533.386, -1910.42)
+rotation = -0.442788
+scale = Vector2(1.25175, 1.25175)
+
+[node name="TreeSmall115" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1946.39, -1559.39)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge61" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1724.74, -1676.29)
+rotation = -0.00694096
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeLarge37" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2053, -1797.08)
+rotation = -1.05985
+
+[node name="TreeGreenLarge62" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2818.98, 3380.89)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeGreenLarge63" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3395.94, 3005.33)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall116" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3113.84, 2796.65)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall117" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3497.09, 3174.17)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall118" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3327.02, 3259.21)
+rotation = 0.610194
+scale = Vector2(1.02154, 1.02154)
+
+[node name="TreeSmall119" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3454.57, 3382.51)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall120" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3075.4, 3314.07)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeLarge38" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3193.61, 3002.51)
+rotation = -0.502234
+
+[node name="TreeGreenLarge64" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2256.19, 2528.01)
+rotation = 0.310297
+scale = Vector2(-0.881678, -0.881678)
+
+[node name="TreeSmall121" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2090.82, 2626.58)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge39" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2872.34, 2510.66)
+rotation = 0.455033
+scale = Vector2(1.16021, 1.16021)
+
+[node name="TreeGreenLarge65" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2506.17, 2612.05)
+rotation = 0.759989
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall122" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2549.4, 2887.19)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge66" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2669.45, 2750.43)
+rotation = -1.06336
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall123" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2895.44, 2662.3)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeGreenLarge67" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2599.54, 3395.54)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall124" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2262.26, 3326.26)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge40" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2134.34, 3143.84)
+rotation = -0.882444
+
+[node name="TreeLarge41" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2315.19, 2846.91)
+rotation = -0.442788
+scale = Vector2(1.25175, 1.25175)
+
+[node name="TreeSmall125" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2752.49, 3251.22)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge68" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2530.85, 3134.32)
+rotation = -0.00694096
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeLarge42" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(2859.1, 3013.53)
+rotation = -1.05985
+
+[node name="TreeGreenLarge69" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2740.09, 1906.76)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeGreenLarge70" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2163.13, 1531.2)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall126" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2445.23, 1322.52)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall127" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2061.98, 1700.04)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall128" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2232.05, 1785.08)
+rotation = 0.610194
+scale = Vector2(1.02154, 1.02154)
+
+[node name="TreeSmall129" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2104.5, 1908.38)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeSmall130" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2483.67, 1839.94)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeLarge43" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2365.46, 1528.38)
+rotation = -0.502234
+
+[node name="TreeGreenLarge71" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2550.98, 2026.34)
+rotation = 0.310297
+scale = Vector2(-0.881678, -0.881678)
+
+[node name="TreeSmall131" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2716.34, 2124.91)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge44" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2686.73, 1036.53)
+rotation = 0.455033
+scale = Vector2(1.16021, 1.16021)
+
+[node name="TreeGreenLarge72" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2301, 2110.38)
+rotation = 0.759989
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall132" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2257.76, 2385.52)
+rotation = 1.09717
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge73" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2889.62, 1276.3)
+rotation = -1.06336
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall133" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2663.63, 1188.17)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeGreenLarge74" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2959.53, 1921.41)
+rotation = 0.27301
+scale = Vector2(0.604573, 0.604573)
+
+[node name="TreeSmall134" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2544.91, 2824.59)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeLarge45" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2672.83, 2642.18)
+rotation = -0.882444
+
+[node name="TreeLarge46" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2491.98, 2345.24)
+rotation = -0.442788
+scale = Vector2(1.25175, 1.25175)
+
+[node name="TreeSmall135" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-2806.58, 1777.09)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge75" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2276.32, 2652.71)
+rotation = -0.00694096
+scale = Vector2(1.24997, 1.24997)
+
+[node name="TreeLarge47" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-2699.97, 1539.4)
+rotation = -1.05985
+
+[node name="TreeGreenLarge44" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3275.87, 1481.07)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall77" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3461.08, 1300.34)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeGreenLarge93" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3659.48, 1158.28)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall168" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3621.8, 1520.91)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall169" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3761.32, 1308.65)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge94" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3860.35, 1514.16)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall170" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(4045.56, 1333.43)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall165" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3587.61, 2309.72)
+rotation = -1.82583
+scale = Vector2(1.81525, 1.81525)
+
+[node name="TreeSmall166" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3703.17, 2526.97)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge92" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3453.8, 2591.77)
+rotation = -0.866132
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeSmall167" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3582.38, 2877.34)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeGreenLarge86" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1500.43, 3033.36)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall157" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1462.75, 3395.99)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall158" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1602.27, 3183.73)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall159" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2007.29, 2858.14)
+rotation = 0.610194
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge87" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1757.92, 2922.94)
+rotation = -0.866132
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeLarge54" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1407.92, 2713.35)
+rotation = -1.05985
+
+[node name="TreeGreenLarge88" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(1701.3, 3389.24)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall160" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(1886.51, 3208.51)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeGreenLarge97" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1286.64, 3213.81)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall177" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1324.32, 3576.45)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall178" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-1184.79, 3364.19)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeGreenLarge98" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1029.14, 3103.4)
+rotation = -0.866132
+scale = Vector2(1.03048, 1.03048)
+
+[node name="TreeGreenLarge99" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(-1085.76, 3569.69)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall179" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(-900.553, 3388.96)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall95" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(2999.96, 2284.62)
+rotation = 0.0759643
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeSmall96" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3057.17, 2051.78)
+rotation = -0.850363
+scale = Vector2(1.29576, 1.29576)
+
+[node name="TreeSmall97" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3136.44, 2456.38)
+rotation = -0.196559
+scale = Vector2(1.36, 1.36)
+
+[node name="TreeGreenLarge51" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3238.52, 2277.87)
+rotation = -1.1963
+scale = Vector2(0.773787, 0.773787)
+
+[node name="TreeSmall98" parent="." instance=ExtResource("2_hn1kd")]
+position = Vector2(3423.73, 2097.14)
+rotation = 0.801311
+scale = Vector2(1.60774, 1.60774)
+
+[node name="TreeLarge26" parent="." instance=ExtResource("1_sm07b")]
+position = Vector2(3418.76, 1807.96)
+rotation = -1.05985

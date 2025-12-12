@@ -3,8 +3,8 @@ extends CharacterBody2D
 enum PREY_STATE { IDLE, WANDER, FLEE }
 
 @export var moveSpeed: float = 100
-@export var idleTime: float = 5
-@export var wanderTime: float = 10
+@export var idleTime: float = randf_range(4,6)
+@export var wanderTime: float = randf_range(8,14)
 
 @onready var timer = $Timer
 @onready var awareness = $"Awareness - Elk/CollisionShape2D"
