@@ -2,6 +2,7 @@ extends CanvasLayer
 
 signal start_game
 
+
 func show_message(text):
 	$Message.text = text
 	$Message.show()
@@ -20,7 +21,7 @@ func update_score(score):
 	$ScoreLabel.text = str(score)
 
 func update_hunger(hunger):
-	pass
+	$HungerLabel.text = str(hunger)
 
 func _on_start_button_pressed() -> void:
 	$StartButton.hide()

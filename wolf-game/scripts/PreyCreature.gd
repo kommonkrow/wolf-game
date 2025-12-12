@@ -2,13 +2,13 @@ extends CharacterBody2D
 
 enum PREY_STATE { IDLE, WANDER, FLEE }
 
-@export var moveSpeed: float = 100
+@export var moveSpeed: float = 80
 @export var idleTime: float = randf_range(4,6)
 @export var wanderTime: float = randf_range(8,14)
 
 @onready var timer = $Timer
 @onready var awareness = $"Awareness - Elk/CollisionShape2D"
-@onready var activePredator: Vector2 = get_node("/root/Game/WolfBody2D").position
+@onready var activePredator: Vector2
 
 var moveDirection: Vector2 = Vector2.ZERO
 var currentState: PREY_STATE = PREY_STATE.IDLE
@@ -18,6 +18,10 @@ var maxHealth
 
 func _ready():
 	pick_new_state()
+
+func _process(delta):
+	if(currentState == PREY_STATE.FLEE):
+		activePredator = get_node("/root/Game/WolfBody2D/").position
 
 func _physics_process(_delta):
 	self.look_at(self.global_position + moveDirection)
@@ -43,23 +47,23 @@ func select_new_direction():
 
 func _on_awareness__elk_area_entered(area: Area2D) -> void:
 	if area.is_in_group("Carnivore"):
-		print("Carnivore detected.")
+#		print("Carnivore detected.")
 		
 		currentState = PREY_STATE.FLEE
 		flee_from_predator()
 
 func flee_from_predator():
-	print("Fleeing.")
+#	print("Fleeing.")
 	pass
 
 func pick_new_state():
 	if(currentState == PREY_STATE.IDLE):
-		print("Wandering.")
+#		print("Wandering.")
 		select_new_direction()
 		currentState = PREY_STATE.WANDER
 		timer.start(wanderTime)
 	elif(currentState == PREY_STATE.WANDER):
-		print("Idling.")
+#		print("Idling.")
 		currentState = PREY_STATE.IDLE
 		timer.start(idleTime)
 
@@ -67,12 +71,12 @@ func pick_new_state():
 func _on_hit_box__elk_whole_body_area_entered(area: Area2D):
 	if area.is_in_group("HitBox"):
 		if preyHealth > 0:
-			print("Prey Hit")
+#			print("Prey Hit")
 			preyHealth -= 1
 			var preyHealthString = "Prey health = %s" % preyHealth
 			print(preyHealthString)
 		if preyHealth < 1:
-			
+			get_node("/root/Game/").handle_elk_death()
 			self.queue_free()
 			print("Prey destroyed.")
 

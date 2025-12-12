@@ -2,23 +2,29 @@ extends Node
 
 @export var elk_scene: PackedScene
 var score
+var hunger: int
 
 func _ready():
-	pass
+	$HUD.update_hunger(hunger)
 
 func game_over():
 	$ScoreTimer.stop()
 	$ElkTimer.stop()
+	$HungerTimer.stop()
 	
 	$HUD.show_game_over()
+	$WolfBody2D.canMove = false
 
 func new_game():
 	get_tree().call_group("Herbivore", "queue_free")
 	score = 0
+	hunger = 10
 	$WolfBody2D.start($StartPosition.position)
+	$ElkTimer.start()
 	$StartTimer.start()
 	
 	$HUD.update_score(score)
+	$HUD.update_hunger(hunger)
 	$HUD.show_message("Get Ready!")
 
 
@@ -34,10 +40,24 @@ func _on_elk_timer_timeout() -> void:
 	add_child(elk)
 
 func _on_score_timer_timeout() -> void:
-	score += 1
+	score += 2
 	$HUD.update_score(score)
 
+func handle_elk_death():
+	score += 10
+	$HUD.update_score(score)
+	hunger += 5
+	$HUD.update_hunger(hunger)
+
 func _on_start_timer_timeout() -> void:
-	$ElkTimer.start()
+	$WolfBody2D.canMove = true
+	
 	$ScoreTimer.start()
-	$WolfBody2D/HungerTimer.start()
+	$HungerTimer.start()
+
+
+func _on_hunger_timer_timeout() -> void:
+	hunger -= 1
+	$HUD.update_hunger(hunger)
+	if hunger < 1:
+		game_over()

@@ -19,7 +19,7 @@ radius = 40.9917
 height = 96.3454
 
 [node name="ElkBody" type="CharacterBody2D"]
-scale = Vector2(0.179804, 0.179804)
+scale = Vector2(0.299804, 0.299804)
 floor_constant_speed = true
 script = ExtResource("1_e3l10")
 metadata/preyHealth = 10
@@ -69,10 +69,6 @@ scale = Vector2(23.395, 23.395)
 shape = SubResource("CapsuleShape2D_2qdaw")
 
 [node name="Timer" type="Timer" parent="."]
-
-[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
-position = Vector2(105.671, -19.4656)
-scale = Vector2(43.9367, 18.6314)
 
 [connection signal="area_entered" from="HitBox - ElkWholeBody" to="." method="_on_hit_box__elk_whole_body_area_entered"]
 [connection signal="area_entered" from="Awareness - Elk" to="." method="_on_awareness__elk_area_entered"]
