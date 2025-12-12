@@ -1,11 +1,12 @@
 extends CharacterBody2D
 
 @export var speed = 40
+@export var hunger = 100
 
-signal hunger_timeout
+signal loss_hunger
 
 var target = position
-@onready var hunger = $HungerTimer
+@onready var hungerTimer = $HungerTimer
 
 func _input(_event):
 	look_at(get_global_mouse_position())
@@ -23,7 +24,8 @@ func _physics_process(_delta):
 		move_and_slide()
 
 func _process(delta):
-	pass
+	if hunger < 1:
+		loss_hunger.emit
 
 func start(pos):
 	position = pos
@@ -35,5 +37,4 @@ func _on_area_2d__bite_box_area_entered(area: Area2D):
 
 
 func _on_hunger_timer_timeout() -> void:
-	hide()
-	hunger_timeout.emit()
+	hunger -= 1

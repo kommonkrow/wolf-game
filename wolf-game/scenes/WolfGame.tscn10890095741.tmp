@@ -46,7 +46,7 @@ rendering_quadrant_size = 64
 position = Vector2(-516.672, -613.548)
 
 [node name="ElkTimer" type="Timer" parent="."]
-wait_time = 3.0
+wait_time = 0.5
 
 [node name="ScoreTimer" type="Timer" parent="."]
 

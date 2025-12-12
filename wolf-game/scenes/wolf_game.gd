@@ -4,16 +4,22 @@ extends Node
 var score
 
 func _ready():
-	new_game()
+	pass
 
 func game_over():
 	$ScoreTimer.stop()
 	$ElkTimer.stop()
+	
+	$HUD.show_game_over()
 
 func new_game():
+	get_tree().call_group("Herbivore", "queue_free")
 	score = 0
 	$WolfBody2D.start($StartPosition.position)
 	$StartTimer.start()
+	
+	$HUD.update_score(score)
+	$HUD.show_message("Get Ready!")
 
 
 func _on_elk_timer_timeout() -> void:
@@ -29,6 +35,7 @@ func _on_elk_timer_timeout() -> void:
 
 func _on_score_timer_timeout() -> void:
 	score += 1
+	$HUD.update_score(score)
 
 func _on_start_timer_timeout() -> void:
 	$ElkTimer.start()
