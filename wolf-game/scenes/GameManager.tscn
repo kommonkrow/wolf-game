@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://dupoh7qe67no4"]
+
+[ext_resource type="PackedScene" uid="uid://cklllfk0xvrfb" path="res://scenes/WolfGame.tscn" id="1_34tde"]
+[ext_resource type="Script" uid="uid://c56c5lhssr3ev" path="res://scenes/game_manager.gd" id="1_qppyr"]
+[ext_resource type="PackedScene" uid="uid://bnfjlak3nc7pf" path="res://prefabs/ElkBody.tscn" id="2_4dhvd"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_qppyr")
+elk_scene = ExtResource("2_4dhvd")
+
+[node name="Game" parent="." instance=ExtResource("1_34tde")]

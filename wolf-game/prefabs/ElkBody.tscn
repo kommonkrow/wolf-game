@@ -70,6 +70,10 @@ shape = SubResource("CapsuleShape2D_2qdaw")
 
 [node name="Timer" type="Timer" parent="."]
 
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(105.671, -19.4656)
+scale = Vector2(43.9367, 18.6314)
+
 [connection signal="area_entered" from="HitBox - ElkWholeBody" to="." method="_on_hit_box__elk_whole_body_area_entered"]
 [connection signal="area_entered" from="Awareness - Elk" to="." method="_on_awareness__elk_area_entered"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

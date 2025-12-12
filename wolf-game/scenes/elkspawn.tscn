@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://btebxply1f216"]
+[gd_scene load_steps=2 format=3 uid="uid://btebxply1f216"]
 
-[node name="Area2D" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yl0fk"]
+size = Vector2(5.35505, 5.1743)
+
+[node name="Spawnpoint" type="Area2D" groups=["spawner"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["spawner"]]
+z_index = 5
+position = Vector2(-0.170371, -0.0143356)
+scale = Vector2(16.96, 16.96)
+shape = SubResource("RectangleShape2D_yl0fk")
+disabled = true
