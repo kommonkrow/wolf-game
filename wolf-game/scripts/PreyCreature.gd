@@ -72,6 +72,7 @@ func _on_hit_box__elk_whole_body_area_entered(area: Area2D):
 			var preyHealthString = "Prey health = %s" % preyHealth
 			print(preyHealthString)
 		if preyHealth < 1:
+			
 			self.queue_free()
 			print("Prey destroyed.")
 
