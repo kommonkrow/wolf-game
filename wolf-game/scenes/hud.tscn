@@ -7,20 +7,24 @@
 script = ExtResource("1_oo0fn")
 
 [node name="ScoreLabel" type="Label" parent="."]
+custom_minimum_size = Vector2(200, 50)
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -20.0
-offset_right = 20.0
-offset_bottom = 71.0
+offset_left = 134.041
+offset_top = 14.1491
+offset_right = 334.041
+offset_bottom = 108.149
 grow_horizontal = 2
+size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("2_5ysmq")
 theme_override_font_sizes/font_size = 64
-text = "0"
+text = "Score: 0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="HungerLabel" type="Label" parent="."]
+visible = false
 offset_left = 19.2
 offset_top = 24.0
 offset_right = 59.2
@@ -72,23 +76,15 @@ text = "start"
 wait_time = 2.0
 one_shot = true
 
-[node name="PanelContainer" type="PanelContainer" parent="."]
-visible = false
-offset_left = 15.0
-offset_top = 15.0
-offset_right = 415.0
-offset_bottom = 55.0
-
-[node name="ActiveHungerPanel" type="Panel" parent="PanelContainer"]
-modulate = Color(1, 0.403922, 0, 1)
-self_modulate = Color(1, 0.415686, 0, 1)
-custom_minimum_size = Vector2(400, 0)
-layout_mode = 2
-size_flags_horizontal = 0
-
-[node name="HungerBackPanel" type="Panel" parent="PanelContainer"]
-custom_minimum_size = Vector2(400, 0)
-layout_mode = 2
+[node name="ProgressBar" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(450, 65)
+offset_left = 232.584
+offset_top = 38.0515
+offset_right = 682.584
+offset_bottom = 103.052
+step = 1.0
+value = 100.0
+rounded = true
 
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="timeout" from="MessageTimer" to="." method="_on_message_timer_timeout"]

@@ -19,7 +19,7 @@ var maxHealth
 func _ready():
 	pick_new_state()
 
-func _process(delta):
+func _process(_delta):
 	if(currentState == PREY_STATE.FLEE):
 		activePredator = get_node("/root/Game/WolfBody2D/").position
 

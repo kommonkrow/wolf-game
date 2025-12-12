@@ -18,7 +18,7 @@ func game_over():
 func new_game():
 	get_tree().call_group("Herbivore", "queue_free")
 	score = 0
-	hunger = 10
+	hunger = 100
 	$WolfBody2D.start($StartPosition.position)
 	$ElkTimer.start()
 	$StartTimer.start()
@@ -46,8 +46,12 @@ func _on_score_timer_timeout() -> void:
 func handle_elk_death():
 	score += 10
 	$HUD.update_score(score)
-	hunger += 5
-	$HUD.update_hunger(hunger)
+	if hunger < 96:
+		hunger += 5
+		$HUD.update_hunger(hunger)
+	elif hunger > 95:
+		hunger = 100
+		$HUD.update_hunger(hunger)
 
 func _on_start_timer_timeout() -> void:
 	$WolfBody2D.canMove = true
@@ -57,7 +61,7 @@ func _on_start_timer_timeout() -> void:
 
 
 func _on_hunger_timer_timeout() -> void:
-	hunger -= 1
+	hunger -= 2
 	$HUD.update_hunger(hunger)
 	if hunger < 1:
 		game_over()

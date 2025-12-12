@@ -18,10 +18,10 @@ func show_game_over():
 	$StartButton.show()
 
 func update_score(score):
-	$ScoreLabel.text = str(score)
+	$ScoreLabel.text = "Score: " + str(score)
 
 func update_hunger(hunger):
-	$HungerLabel.text = str(hunger)
+	$ProgressBar.value = hunger 
 
 func _on_start_button_pressed() -> void:
 	$StartButton.hide()
