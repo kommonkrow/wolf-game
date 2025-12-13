@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dodgtg2sbuga4"]
 
-[ext_resource type="Script" uid="uid://ccuyksxvavw4i" path="res://hud.gd" id="1_oo0fn"]
+[ext_resource type="Script" path="res://hud.gd" id="1_oo0fn"]
 [ext_resource type="FontFile" uid="uid://lyuh7qcduapj" path="res://fonts/Becomes Notes.ttf" id="2_5ysmq"]
 [ext_resource type="FontFile" uid="uid://bkigafo6opl2e" path="res://fonts/Dream Orphans Bd.otf" id="3_5ysmq"]
 
@@ -103,6 +103,7 @@ show_percentage = false
 
 [node name="ColorRect" type="ColorRect" parent="ProgressBar"]
 show_behind_parent = true
+layout_mode = 0
 offset_left = -8.0
 offset_top = -8.0
 offset_right = 594.0
@@ -111,6 +112,7 @@ color = Color(0.458824, 0.207843, 0.168627, 1)
 
 [node name="ColorRect2" type="ColorRect" parent="ProgressBar"]
 show_behind_parent = true
+layout_mode = 0
 offset_left = -8.0
 offset_top = 29.0
 offset_right = 136.0
@@ -120,6 +122,7 @@ color = Color(0.458824, 0.207843, 0.168627, 1)
 
 [node name="ColorRect3" type="ColorRect" parent="ProgressBar"]
 show_behind_parent = true
+layout_mode = 0
 offset_left = 142.0
 offset_top = 9.0
 offset_right = 176.0
