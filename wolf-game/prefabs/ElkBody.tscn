@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://bnfjlak3nc7pf"]
+[gd_scene load_steps=10 format=3 uid="uid://bnfjlak3nc7pf"]
 
 [ext_resource type="Script" uid="uid://dkw4if0gcvgyu" path="res://scripts/PreyCreature.gd" id="1_e3l10"]
 [ext_resource type="Texture2D" uid="uid://bypdcj8hjpmp4" path="res://images/sprites/elksprite_body.png" id="2_xuesl"]
 [ext_resource type="Texture2D" uid="uid://b7bridr8os24" path="res://images/sprites/elksprite_neck.png" id="3_b4qbc"]
 [ext_resource type="Texture2D" uid="uid://cc2e1l0iidpyp" path="res://images/sprites/elksprite_head.png" id="4_ct1s8"]
 [ext_resource type="Texture2D" uid="uid://doa6clayvsmj" path="res://images/sprites/elksprite_antlers.png" id="5_aria7"]
+[ext_resource type="AudioStream" uid="uid://bbp2v7ye6p8u5" path="res://sounds/elkpop.mp3" id="6_b4qbc"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3uhji"]
 radius = 121.0
@@ -69,6 +70,9 @@ scale = Vector2(23.395, 23.395)
 shape = SubResource("CapsuleShape2D_2qdaw")
 
 [node name="Timer" type="Timer" parent="."]
+
+[node name="ElkPop" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_b4qbc")
 
 [connection signal="area_entered" from="HitBox - ElkWholeBody" to="." method="_on_hit_box__elk_whole_body_area_entered"]
 [connection signal="area_entered" from="Awareness - Elk" to="." method="_on_awareness__elk_area_entered"]

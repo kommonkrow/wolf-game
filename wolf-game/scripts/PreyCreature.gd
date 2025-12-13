@@ -21,7 +21,7 @@ func _ready():
 
 func _process(_delta):
 	if(currentState == PREY_STATE.FLEE):
-		activePredator = get_node("/root/Game/WolfBody2D/").position
+		activePredator = get_tree().get_first_node_in_group("Carnivore").position
 
 func _physics_process(_delta):
 	self.look_at(self.global_position + moveDirection)
@@ -73,12 +73,14 @@ func _on_hit_box__elk_whole_body_area_entered(area: Area2D):
 		if preyHealth > 0:
 #			print("Prey Hit")
 			preyHealth -= 1
-			var preyHealthString = "Prey health = %s" % preyHealth
-			print(preyHealthString)
+#			var preyHealthString = "Prey health = %s" % preyHealth
+#			print(preyHealthString)
 		if preyHealth < 1:
+			$ElkPop.pitch_scale = randf_range(0.8, 1.5)
+			$ElkPop.play()
 			get_node("/root/Game/").handle_elk_death()
 			self.queue_free()
-			print("Prey destroyed.")
+#			print("Prey destroyed.")
 
 
 func _on_timer_timeout() -> void:

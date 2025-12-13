@@ -14,6 +14,9 @@ func game_over():
 	
 	$HUD.show_game_over()
 	$WolfBody2D.canMove = false
+	
+	$WolfBody2D/Music.stop()
+	$WolfBody2D/DeathSound.play()
 
 func new_game():
 	get_tree().call_group("Herbivore", "queue_free")
@@ -27,7 +30,6 @@ func new_game():
 	# Set the mob's position to the random location.
 	elk.position = elk_spawn_location.position
 	add_child(elk)
-	add_child(elk)
 	
 	$WolfBody2D.start($StartPosition.position)
 	$ElkTimer.start()
@@ -36,6 +38,8 @@ func new_game():
 	$HUD.update_score(score)
 	$HUD.update_hunger(hunger)
 	$HUD.show_message("Happy Hunting!")
+	
+	$WolfBody2D/Music.play()
 
 
 func _on_elk_timer_timeout() -> void:

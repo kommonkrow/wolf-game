@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed = 50
+@export var speed = 60
 
 @onready var canMove: bool = false
 var target = position
@@ -28,4 +28,6 @@ func start(pos):
 
 func _on_area_2d__bite_box_area_entered(area: Area2D):
 	if area.is_in_group("HurtBox"):
-		print("Bite")
+		$Growl.pitch_scale = randf_range(0.5,1.0)
+		$Growl.play()
+#		print("Bite")
