@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dodgtg2sbuga4"]
 
-[ext_resource type="Script" path="res://hud.gd" id="1_oo0fn"]
+[ext_resource type="Script" uid="uid://ccuyksxvavw4i" path="res://hud.gd" id="1_oo0fn"]
 [ext_resource type="FontFile" uid="uid://lyuh7qcduapj" path="res://fonts/Becomes Notes.ttf" id="2_5ysmq"]
 [ext_resource type="FontFile" uid="uid://bkigafo6opl2e" path="res://fonts/Dream Orphans Bd.otf" id="3_5ysmq"]
 
@@ -57,7 +57,7 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 4
 theme_override_fonts/font = ExtResource("3_5ysmq")
 theme_override_font_sizes/font_size = 64
-text = "Happy Hunting!"
+text = "Press Start"
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 2
