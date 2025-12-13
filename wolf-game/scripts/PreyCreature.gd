@@ -76,7 +76,7 @@ func _on_hit_box__elk_whole_body_area_entered(area: Area2D):
 #			var preyHealthString = "Prey health = %s" % preyHealth
 #			print(preyHealthString)
 		if preyHealth < 1:
-			$ElkPop.pitch_scale = randf_range(0.8, 1.5)
+			$ElkPop.pitch_scale = randf_range(0.8, 1.3)
 			$ElkPop.play()
 			get_node("/root/Game/").handle_elk_death()
 			self.queue_free()

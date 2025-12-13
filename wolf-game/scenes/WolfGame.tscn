@@ -89,7 +89,7 @@ remote_path = NodePath("../../Camera2D2")
 position = Vector2(-1.60986, -2.84653)
 scale = Vector2(7.55538, 7.55538)
 stream = ExtResource("8_hl1ea")
-volume_db = -16.0
+volume_db = -18.0
 max_polyphony = 3
 
 [node name="Music" type="AudioStreamPlayer2D" parent="WolfBody2D"]

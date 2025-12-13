@@ -60,10 +60,10 @@ func _on_score_timer_timeout() -> void:
 func handle_elk_death():
 	score += 10
 	$HUD.update_score(score)
-	if hunger < 89:
-		hunger += 10
+	if hunger < 79:
+		hunger += 20
 		$HUD.update_hunger(hunger)
-	elif hunger > 90:
+	elif hunger > 80:
 		hunger = 100
 		$HUD.update_hunger(hunger)
 

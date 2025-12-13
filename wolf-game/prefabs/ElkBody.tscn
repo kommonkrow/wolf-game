@@ -73,6 +73,7 @@ shape = SubResource("CapsuleShape2D_2qdaw")
 
 [node name="ElkPop" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_b4qbc")
+volume_db = 12.0
 
 [connection signal="area_entered" from="HitBox - ElkWholeBody" to="." method="_on_hit_box__elk_whole_body_area_entered"]
 [connection signal="area_entered" from="Awareness - Elk" to="." method="_on_awareness__elk_area_entered"]
