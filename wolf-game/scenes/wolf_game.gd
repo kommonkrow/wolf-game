@@ -19,13 +19,23 @@ func new_game():
 	get_tree().call_group("Herbivore", "queue_free")
 	score = 0
 	hunger = 100
+	
+	var elk = elk_scene.instantiate()
+	# Choose a random location on Path2D.
+	var elk_spawn_location = $ElkPath/ElkSpawnLocation
+	elk_spawn_location.progress_ratio = randf()
+	# Set the mob's position to the random location.
+	elk.position = elk_spawn_location.position
+	add_child(elk)
+	add_child(elk)
+	
 	$WolfBody2D.start($StartPosition.position)
 	$ElkTimer.start()
 	$StartTimer.start()
 	
 	$HUD.update_score(score)
 	$HUD.update_hunger(hunger)
-	$HUD.show_message("Get Ready!")
+	$HUD.show_message("Happy Hunting!")
 
 
 func _on_elk_timer_timeout() -> void:
@@ -46,10 +56,10 @@ func _on_score_timer_timeout() -> void:
 func handle_elk_death():
 	score += 10
 	$HUD.update_score(score)
-	if hunger < 96:
-		hunger += 5
+	if hunger < 89:
+		hunger += 10
 		$HUD.update_hunger(hunger)
-	elif hunger > 95:
+	elif hunger > 90:
 		hunger = 100
 		$HUD.update_hunger(hunger)
 
