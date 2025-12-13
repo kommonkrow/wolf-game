@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://b85eh6afewq4c" path="res://prefabs/PlayerBody.tscn" id="1_yqfat"]
 [ext_resource type="PackedScene" uid="uid://bnfjlak3nc7pf" path="res://prefabs/ElkBody.tscn" id="2_mvh45"]
 [ext_resource type="Texture2D" uid="uid://ct45v8uyohype" path="res://images/tilesets/terrainTiles_default.png" id="3_mvh45"]
-[ext_resource type="PackedScene" uid="uid://cwuyi0glr0lwg" path="res://scenes/border_trees.tscn" id="5_y3rmq"]
+[ext_resource type="PackedScene" uid="uid://cwuyi0glr0lwg" path="res://prefabs/border_trees.tscn" id="5_y3rmq"]
 [ext_resource type="PackedScene" uid="uid://dodgtg2sbuga4" path="res://scenes/hud.tscn" id="6_0e0f1"]
 [ext_resource type="AudioStream" uid="uid://dv2ya7le1bgek" path="res://sounds/dogwhine.mp3" id="7_mhyxk"]
 [ext_resource type="AudioStream" uid="uid://bh4i7lnukvmbw" path="res://sounds/doggrowl.mp3" id="8_hl1ea"]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cwuyi0glr0lwg"]
 
-[ext_resource type="PackedScene" uid="uid://c7yq8e0x0lstr" path="res://scenes/tree_green_large.tscn" id="1_sm07b"]
-[ext_resource type="PackedScene" uid="uid://ixg0asjliek" path="res://scenes/tree_green_small.tscn" id="2_hn1kd"]
+[ext_resource type="PackedScene" uid="uid://c7yq8e0x0lstr" path="res://prefabs/tree_green_large.tscn" id="1_sm07b"]
+[ext_resource type="PackedScene" uid="uid://ixg0asjliek" path="res://prefabs/tree_green_small.tscn" id="2_hn1kd"]
 
 [node name="BorderTrees" type="CanvasGroup"]
 z_index = 10
